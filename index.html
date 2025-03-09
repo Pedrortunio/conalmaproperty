@@ -7,29 +7,28 @@
 </head>
 <body>
     <header>
-        <h1>Con Alma Property</h1>
-        <p>Encuentra tu hogar ideal en Zaragoza</p>
+        <h1>Gestión Inmobiliaria</h1>
     </header>
 
     <section id="propiedades">
-        <h2>Propiedades disponibles</h2>
+        <h2>Nuestras Propiedades</h2>
         <div class="propiedad">
             <img src="imagenes/casa1.jpg" alt="Casa en venta">
             <h3>Casa en el centro</h3>
             <p>3 habitaciones, 2 baños - $250,000</p>
-            <button onclick="mostrarDetalles('Casa en el centro')">Ver más</button>
+            <button onclick="mostrarDetalles('detalle-casa1')">Ver más</button>
+            <div id="detalle-casa1" class="detalle">
+                <p>Amplia casa con jardín y garaje. Perfecta para familias.</p>
+            </div>
         </div>
         <div class="propiedad">
             <img src="imagenes/casa2.jpg" alt="Apartamento">
             <h3>Apartamento moderno</h3>
             <p>2 habitaciones, 1 baño - $180,000</p>
-            <button onclick="mostrarDetalles('Apartamento moderno')">Ver más</button>
-        </div>
-        <div class="propiedad">
-            <img src="imagenes/casa3.jpg" alt="Apartamento">
-            <h3>Valdespartera</h3>
-            <p>5 habitaciones, 3 baños - $235,000</p>
-            <button onclick="mostrarDetalles('Apartamento moderno')">Ver más</button>
+            <button onclick="mostrarDetalles('detalle-casa2')">Ver más</button>
+            <div id="detalle-casa2" class="detalle">
+                <p>Apartamento con vistas al mar y acabados de lujo.</p>
+            </div>
         </div>
     </section>
 
